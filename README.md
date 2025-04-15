@@ -38,13 +38,13 @@ In this mode, both players run in the same process and communicate using in-memo
 1. To run the Initiator and Responder in **single-process mode**, execute:
 
    ```bash
-   java -cp target/classes com.unifiedplayer.Main single
+   mvn exec:java -Dexec.mainClass="com.unifiedplayer.Main" -Dexec.args="single"
    ```
 
    or
 
    ```bash
-   mvn exec:java -Dexec.mainClass="com.unifiedplayer.Main" -Dexec.args="single"
+   java -cp target/classes com.unifiedplayer.Main single
    ```
 
    This will start both the **Initiator** and **Responder** on separate threads.
