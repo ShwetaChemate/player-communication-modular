@@ -29,7 +29,7 @@ public class Main {
             case "multi":
                 System.out.println("Launching Responder and Initiator via run_players.sh shell script");
                 try {
-                    ProcessBuilder pb = new ProcessBuilder("sh", "run_players.sh");
+                    ProcessBuilder pb = new ProcessBuilder("sh", "scripts/run_players.sh");
                     pb.inheritIO(); 
                     Process process = pb.start();
                     int exitCode = process.waitFor();

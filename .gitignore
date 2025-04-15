@@ -3,3 +3,9 @@
 
 # target directory (compiled files and build artifacts)
 target/
+
+# Ignore all shell scripts
+*.sh
+
+# But allow run_players.sh
+!run_players.sh
