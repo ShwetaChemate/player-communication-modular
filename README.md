@@ -51,7 +51,13 @@ In this mode, both players run in the same process and communicate using in-memo
 
 ### Multi-Process Mode
 
-In this mode, players run in different processes and communicate over a network using sockets.
+In this mode, players run in different processes and communicate over a network using sockets, execute:
+
+```bash
+mvn exec:java -Dexec.mainClass="com.unifiedplayer.Main" -Dexec.args="multiple"
+```
+
+or
 
 1. First, run the **Responder** process:
 
