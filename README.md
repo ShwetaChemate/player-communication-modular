@@ -19,8 +19,8 @@ This project simulates communication between two players in both **single-proces
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/player-communication.git
-   cd player-communication
+   git clone https://github.com/your-username/player-communication-modular.git
+   cd player-communication-modular
    ```
 
 2. Install dependencies using Maven:
@@ -39,6 +39,12 @@ In this mode, both players run in the same process and communicate using in-memo
 
    ```bash
    java -cp target/classes com.unifiedplayer.Main single
+   ```
+
+   or
+
+   ```bash
+   mvn exec:java -Dexec.mainClass="com.unifiedplayer.Main" -Dexec.args="single"
    ```
 
    This will start both the **Initiator** and **Responder** on separate threads.
