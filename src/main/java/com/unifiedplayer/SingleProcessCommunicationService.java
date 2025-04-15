@@ -17,7 +17,7 @@ public class SingleProcessCommunicationService implements Runnable {
             System.out.println("Running InitiatorPlayer with PID: " + pid);
             StringBuilder history = new StringBuilder();
             for (int i = 1; i <= 10; i++) {
-                String message = "message#" + i;
+                String message = "message#" + i + "|";
                 history.append(message);
                 channel.sendToResponder(history.toString());
                 String response = channel.receiveFromResponder();
@@ -31,7 +31,7 @@ public class SingleProcessCommunicationService implements Runnable {
             while (count <= 10) {
                 String message = channel.receiveFromInitiator();
                 System.out.println("Responder received: " + message);
-                String response = message + "|reply#" + count;
+                String response = message + "reply#" + count + "|";
                 channel.sendToInitiator(response);
                 count++;
             }

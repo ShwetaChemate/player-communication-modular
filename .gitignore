@@ -1,0 +1,5 @@
+# .vscode directory (IDE settings)
+.vscode/
+
+# target directory (compiled files and build artifacts)
+target/

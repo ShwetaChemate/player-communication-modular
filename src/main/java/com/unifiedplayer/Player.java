@@ -1,8 +1,6 @@
 package com.unifiedplayer;
 
-/**
- * Model class representing a player which can act as Initiator or Responder.
- */
+//Model class representing a player which can act as Initiator or Responder.
 public class Player {
     private final boolean isInitiator;
 
