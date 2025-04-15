@@ -1,5 +1,4 @@
-```markdown
-# Player Communication Project
+## Player Communication Project
 
 This project simulates communication between two players in both **single-process** and **multi-process** modes. The players can act as either an **Initiator** or a **Responder**. The communication is handled using sockets in multi-process mode and in-memory channels in single-process mode.
 
