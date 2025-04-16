@@ -16,10 +16,11 @@ This project simulates communication between two players in both **single-proces
 
 ## Installation
 
-1. Clone the repository:
+1. Download the repository:
+
+   You can **[download the project as a ZIP file](https://github.com/your-username/your-repo-name/archive/refs/heads/main.zip)** and unzip it
 
    ```bash
-   git clone https://github.com/your-username/player-communication-modular.git
    cd player-communication-modular
    ```
 
