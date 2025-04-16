@@ -16,9 +16,9 @@ This project simulates communication between two players in both **single-proces
 
 ## Installation
 
-1. Download the repository:
+1. Download the project:
 
-   You can **[download the project as a ZIP file](../../Documents/player-communication-modular.zip)** and unzip it
+   You can unzip the project and then:
 
    ```bash
    cd player-communication-modular
